@@ -1,0 +1,13 @@
+venv
+anime_recommendation_system.egg-info
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pkl   
+*.db
+*.sqlite3
+*.log
+mlops-new-464504-ca3031e4f07e.json
+artifacts/
+artifacts/raw/
