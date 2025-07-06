@@ -5,3 +5,6 @@ flask
 setuptools
 google-cloud-storage
 pyyaml
+tensorflow
+matplotlib
+wordcloud
