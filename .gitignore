@@ -9,3 +9,5 @@ __pycache__
 *.sqlite3
 *.log
 mlops-new-464504-ca3031e4f07e.json
+artifacts
+*.h5
