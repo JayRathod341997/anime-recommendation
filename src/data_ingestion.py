@@ -1,10 +1,11 @@
-import os 
+import os
 import pandas as pd
 from google.cloud import storage 
 from src.logger import logging
 from src.custom_exception import CustomException
-from config.path_config import RAW_DIR, CONFIG_PATH
+from config.paths_config import RAW_DIR, CONFIG_PATH
 from utils.common_functions import read_yaml
+import sys 
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"mlops-new-464504-ca3031e4f07e.json"
 
@@ -40,7 +41,7 @@ class DataIngestion:
             
         except Exception as e:
             logger.error(f"Error in downloading files from GCP: {e}")
-            raise CustomException("Failed to download data",e) 
+            raise CustomException("Failed to download data",sys) 
         
     def run(self):
         try:
