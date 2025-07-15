@@ -1,0 +1,16 @@
+{
+  "include": [
+    "src",
+    "app",
+    "anime_recommendation"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    ".venv"
+  ],
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.11",
+  "typeCheckingMode": "off"
+}

@@ -8,3 +8,4 @@ pyyaml
 tensorflow
 matplotlib
 wordcloud
+comet-ml
