@@ -9,5 +9,9 @@ __pycache__
 *.sqlite3
 *.log
 mlops-new-464504-ca3031e4f07e.json
-artifacts
+artifacts/raw
+artifacts/processed
+artifacts/model
+artifacts/model_checkpoint
+artifacts/weights
 *.h5
